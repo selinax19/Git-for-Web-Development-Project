@@ -82,11 +82,16 @@ Link to finished codepen:https://codepen.io/suuhleena/pen/XWgdbEB
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+    block elements always start a new line, always take up the full width, and has a top and bottom margin
+    where as an inline element does not start a new line, can only take up as much width as necessary.
     2. What happens when an element is positioned absolutely? 
+    It sits on it's own layer.
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    width: min-content
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    Block <address><header><Table> INline <span><div> Inline-block
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
-
+    Everything is a box and we can fix box-sizing: border-box.
 
 
    --> 
